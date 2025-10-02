@@ -14,16 +14,19 @@
 		<TextBox x:Name="txt_nev" HorizontalAlignment="Left" Margin="20,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="18"/>
 		<TextBox x:Name="txt_kor" HorizontalAlignment="Left" Margin="20,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="20"/>
 		<ComboBox x:Name="cmb_mufaj" Grid.Column="1" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
-		<CheckBox x:Name="chb_hir" Grid.Column="1" Content="Hírlevélre felíratkozás" HorizontalAlignment="Left" Margin="20,140,0,0" VerticalAlignment="Top" Height="15" Width="71"/>
-		<CheckBox x:Name="chb_sms" Grid.Column="1" Content="SMS értesítések" HorizontalAlignment="Left" Margin="20,160,0,0" VerticalAlignment="Top" Height="15" Width="71"/>
+		<CheckBox x:Name="chb_hir" Grid.Column="1" Content="Hírlevélre felíratkozás" HorizontalAlignment="Left" Margin="20,140,0,0" VerticalAlignment="Top" Height="15" Width="139"/>
+		<CheckBox x:Name="chb_sms" Grid.Column="1" Content="SMS értesítések" HorizontalAlignment="Left" Margin="20,160,0,0" VerticalAlignment="Top" Height="15" Width="139"/>
 		<RadioButton x:Name="rb_norm" Grid.Column="1" Content="Normál" HorizontalAlignment="Left" Margin="20,200,0,0" VerticalAlignment="Top" Height="15" Width="85"/>
 		<RadioButton x:Name="rb_diak" Grid.Column="1" Content="Diák" HorizontalAlignment="Left" Margin="20,220,0,0" VerticalAlignment="Top" Height="15" Width="85"/>
 		<RadioButton x:Name="rb_nyug" Grid.Column="1" Content="Nyugdíjas" HorizontalAlignment="Left" Margin="20,240,0,0" VerticalAlignment="Top" Height="15" Width="85"/>
-		<Button x:Name="btn_ment" Grid.Column="1" Content="Mentés" HorizontalAlignment="Left" Margin="20,270,0,0" VerticalAlignment="Top" Width="120"/>
+		<Button x:Name="btn_ment" Grid.Column="1" Content="Mentés" HorizontalAlignment="Left" Margin="20,270,0,0" VerticalAlignment="Top" Width="120" Click="btn_ment_Click"/>
 		<Label Grid.Column="1" Content="Tagság:" HorizontalAlignment="Left" Margin="20,180,0,0" VerticalAlignment="Top"/>
 		<Label Grid.Column="1" Content="Szolgáltatások:" HorizontalAlignment="Left" Margin="20,120,0,0" VerticalAlignment="Top"/>
 		<Label Grid.Column="1" Content="Kedvenc műfaj:" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top"/>
 		<Label Grid.Column="1" Content="Életkor:" HorizontalAlignment="Left" Margin="20,40,0,0" VerticalAlignment="Top"/>
 		<Label Grid.Column="1" Content="Név:" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Top"/>
-	</Grid>
+        <TextBox x:Name="txtbox" Grid.Column="1" HorizontalAlignment="Left" Margin="20,316,0,0" Text="" VerticalAlignment="Top" Width="120" FontWeight="Bold" TextWrapping="Wrap" BorderThickness="0,0,0,0" FontSize="18"/>
+        <ListBox x:Name="LBbox" Grid.Column="1" Margin="236,53,117,87"/>
+        <Label Grid.Column="1" Content="Eddigi regisztrációk:" HorizontalAlignment="Left" Margin="236,22,0,0" VerticalAlignment="Top"/>
+    </Grid>
 </Window>
